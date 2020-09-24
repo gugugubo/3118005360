@@ -19,15 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="feat: 余弦求相似度&#10;&#10;使用余弦法求相似度&#10;&#10;BREAKING CHANGE: 理清了主要的功能">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/utils/CalculationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/utils/JieBaAnalysisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/Similarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/Similarity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/JiebaSegmenterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/JiebaSegmenterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/Similarity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/Similarity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" afterDir="false" />
+    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="feat: 完成查重主要功能&#10;&#10;使用jieba库进行分词，然后使用余弦算法计算相似度">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/utils/CalculationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/utils/CalculationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/utils/JieBaAnalysisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/utils/JieBaAnalysisUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +182,7 @@
       <workItem from="1600861772938" duration="10000" />
       <workItem from="1600878804623" duration="412000" />
       <workItem from="1600910747566" duration="7429000" />
-      <workItem from="1600923703437" duration="1510000" />
+      <workItem from="1600923703437" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="集合相关只是">
       <created>1600843487162</created>
@@ -211,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600911914577</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 完成查重主要功能&#10;&#10;使用jieba库进行分词，然后使用余弦算法计算相似度">
+      <created>1600925297073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600925297073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +235,8 @@
     <MESSAGE value="集合相关只是" />
     <MESSAGE value="chore(jar):理清思路，添加分词实体类" />
     <MESSAGE value="feat: 余弦求相似度&#10;&#10;使用余弦法求相似度&#10;&#10;BREAKING CHANGE: 理清了主要的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 余弦求相似度&#10;&#10;使用余弦法求相似度&#10;&#10;BREAKING CHANGE: 理清了主要的功能" />
+    <MESSAGE value="feat: 完成查重主要功能&#10;&#10;使用jieba库进行分词，然后使用余弦算法计算相似度" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成查重主要功能&#10;&#10;使用jieba库进行分词，然后使用余弦算法计算相似度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600878890812">

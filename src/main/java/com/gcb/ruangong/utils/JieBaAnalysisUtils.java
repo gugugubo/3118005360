@@ -3,7 +3,6 @@ package com.gcb.ruangong.utils;
 import com.huaban.analysis.jieba.JiebaSegmenter;
 import com.huaban.analysis.jieba.SegToken;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -17,14 +16,12 @@ public class JieBaAnalysisUtils {
 
 
     public static void textSegment(List<String> article, int index, Map<String, int[]> wordMap){
-        JiebaSegmenter segmenter = new JiebaSegmenter();
         List<SegToken> segTokenList;
         for(String sentence : article) {
             //分词得到List<SegToken>,可通过 SegToken.word得到分词
-            segTokenList = segmenter.process(sentence, JiebaSegmenter.SegMode.INDEX);
+            segTokenList = new JiebaSegmenter().process(sentence, JiebaSegmenter.SegMode.INDEX);
             putWordIntoMap(segTokenList,index, wordMap);
         }
-        return ;
     }
 
     private static void putWordIntoMap(List<SegToken> segTokenList, int index, Map<String, int[]> wordMap) {

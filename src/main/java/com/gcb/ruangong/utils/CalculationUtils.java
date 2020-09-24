@@ -15,11 +15,11 @@ public class CalculationUtils {
 
     /**
      * 求余弦相似度
-     * @return
+     * @return 相似度
      */
     public double sim() {
         //分子分母相除
-        double result = 0;
+        double result;
         result = pointMulti(wordMap) / sqrtMulti(wordMap);
         //余弦度结果返回,因为是余弦，返回结果越大，夹角越小，两个向量方向越接近，即两个字符串越相似
         return result;   
@@ -27,11 +27,11 @@ public class CalculationUtils {
 
     /**
      * 求平方根
-     * @param paramMap
-     * @return
+     * @param paramMap 字数统计map
+     * @return 求平方根计算结果
      */
     private double sqrtMulti(Map<String, int[]> paramMap) {
-        double result = 0;
+        double result;
         //先求平方和
         result = squares(paramMap);
         //再开根号，就是求模
@@ -41,16 +41,16 @@ public class CalculationUtils {
 
     /**
      * 求平方和，分母上，向量求模的平方
-     * @param paramMap
-     * @return
+     * @param paramMap  字数统计map
+     * @return 求平方和计算结果
      */
     private double squares(Map<String, int[]> paramMap) {
         double result1 = 0;
         double result2 = 0;
         Set<String> keySet = paramMap.keySet();
-        for (String character : keySet) {
+        for (String string : keySet) {
             //获取key对应的值--数组
-            int temp[] = paramMap.get(character);
+            int[] temp = paramMap.get(string);
             //temp[0]存储的是第一个字符串对应的向量
             result1 += (temp[0] * temp[0]);
             //temp[1]存储的是第二个字符串对应的向量
@@ -61,17 +61,17 @@ public class CalculationUtils {
 
     /**
      * 点乘法，在分子上，向量相乘
-     * @param paramMap
-     * @return
+     * @param paramMap  字数统计map
+     * @return 点乘计算结果 
      */
     private double pointMulti(Map<String, int[]> paramMap) {
         double result = 0;
         // 返回map中所有key值的列表，这里的set，也可以用list代替吧
         Set<String> keySet = paramMap.keySet();
         //存储的key值都是不重复的
-        for (String character : keySet) {
+        for (String string : keySet) {
             //获取key对应的值
-            int temp[] = paramMap.get(character);   
+            int[] temp = paramMap.get(string);   
             result += (temp[0] * temp[1]);
         }
         return result;
