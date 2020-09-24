@@ -21,6 +21,12 @@ public class MainEntrance {
     }
  
     public static void start(String originalArticle, String plagiarismArticle , String desFilePath){
+        if (originalArticle == null || plagiarismArticle == null || desFilePath == null  
+                || originalArticle.trim().length() == 0 || desFilePath.trim().length() == 0 ||
+                desFilePath.trim().length() == 0){
+            System.out.println("输入参数不能为空");
+            return;
+        }
         File originalFile = new File(originalArticle);
         File plagiarismFile = new File(plagiarismArticle);
         if(! originalFile.exists() || ! plagiarismFile.exists()){
@@ -29,6 +35,12 @@ public class MainEntrance {
         }
         List<String> originalString = IoUtils.initContentList(originalArticle);
         List<String> plagiarismString = IoUtils.initContentList(plagiarismArticle);
+        
+        if (originalString.size() == 0 || plagiarismString.size() == 0){
+            System.out.println("文件内容为空，无法比较");
+            return;
+        }
+        
         double result = CalculationUtils.getSimResult(originalString , plagiarismString);
         String percentFormat = NumberUtils.getPercentFormat(result, 2);
         IoUtils.saveFile(desFilePath, "源文件的路径： " + originalArticle+"\n"

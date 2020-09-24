@@ -30,7 +30,7 @@ public class IoUtilsTest extends TestCase {
     }
 
     public void testSaveFile() {
-        String path = "src/test/resources/article/outputTest.txt";
+        String path = "src/test/resources/result/outputTest.txt";
         IoUtils.saveFile(path,"尝试保存一个文件到指定路径");
     }
 }

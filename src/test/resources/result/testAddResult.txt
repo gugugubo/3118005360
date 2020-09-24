@@ -1,3 +1,0 @@
-源文件的路径： src/test/resources/testcase/orig.txt
-对比文件的路径： src/test/resources/testcase/orig_0.8_add.txt
-两篇文章的相似度为 ：99.91%

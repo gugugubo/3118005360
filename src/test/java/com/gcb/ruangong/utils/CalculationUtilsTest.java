@@ -33,6 +33,4 @@ public class CalculationUtilsTest extends TestCase {
             System.out.println("句子一：" + wordMap.get(key)[0] + "  句子二：" +  wordMap.get(key)[1]);
         });
     }
-
-  
 }
