@@ -19,37 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="集合相关只是">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/JiebaSegmenterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595924525927.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595924879313.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595925002583.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595926667491.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595926726521.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595928066758.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595940558932.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595940586386.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595940625586.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595940683432.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595941718976.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595941761120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595991975664.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/assets/1595992059093.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/JavaLearing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java并发编程/java并发1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../java并发编程/java并发1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java并发编程/jdk8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java并发编程/jdk8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java并发编程/并发3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../java并发编程/并发3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="chore(jar):理清思路，添加分词实体类">
+      <change afterPath="$PROJECT_DIR$/document/软件工程设计思路.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/Similarity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../数据结构与算法/数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../数据结构与算法/数据结构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../框架学习/SpringSecurity/权限管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../框架学习/SpringSecurity/权限管理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/jihe.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +41,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -86,16 +63,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="全局库" />
+    <property name="project.structure.proportion" value="0.16773017" />
+    <property name="project.structure.side.proportion" value="0.31614137" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gcb.ruangong" />
       <recent name="com.gcb.jihe" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -103,7 +82,33 @@
       <recent name="D:\我的项目\JavaLearing\java集合\code\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.Similarity">
+    <configuration name="Similarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gcb.ruangong.Similarity" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcb.ruangong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gcb.ruangong.test" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcb.ruangong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JiebaSegmenterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jihe" />
       <extension name="coverage">
@@ -121,6 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Similarity" />
+        <item itemvalue="应用程序.test" />
         <item itemvalue="JUnit.JiebaSegmenterTest" />
       </list>
     </recent_temporary>
@@ -138,6 +145,8 @@
       <workItem from="1600843441350" duration="953000" />
       <workItem from="1600861362039" duration="401000" />
       <workItem from="1600861772938" duration="10000" />
+      <workItem from="1600878804623" duration="412000" />
+      <workItem from="1600910747566" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="集合相关只是">
       <created>1600843487162</created>
@@ -146,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600843487162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore(jar):理清思路，添加分词实体类">
+      <created>1600879050634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600879050634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,40 +183,45 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="集合相关只是" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合相关只是" />
+    <MESSAGE value="chore(jar):理清思路，添加分词实体类" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(jar):理清思路，添加分词实体类" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600878890812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600878890812" />
     <state x="249" y="0" key="#项目结构" timestamp="1600861437106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1600861437106" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600861419899">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600911168541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600861419899" />
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1600861765408">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600911168541" />
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1600911546690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600861765408" />
-    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1600861765407">
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600911546690" />
+    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1600911546690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600861765407" />
-    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1600861765407">
+    <state width="1493" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600911546690" />
+    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1600911546690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600861765407" />
-    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1600861765407">
+    <state width="1493" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600911546690" />
+    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1600911546690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600861765407" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1600861782052">
+    <state width="1493" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600911546690" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1600911745018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600861782052" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600843496712">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600911745018" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600879064295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600843496712" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600879064295" />
   </component>
 </project>
