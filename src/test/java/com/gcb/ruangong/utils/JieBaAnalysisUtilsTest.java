@@ -20,12 +20,13 @@ public class JieBaAnalysisUtilsTest extends TestCase {
     @Test
     public void testForRep(){
         try {
-            MainEntrance.process("src/test/resources/orig.txt","src/test/resources/orig_0.8_rep.txt");
+            MainEntrance.start("src/test/resources/article/orig.txt","src/test/resources/article/orig_0.8_del.txt","src/test/resources/result/testRepResult.txt");
         }
         catch (Exception e) {
             e.printStackTrace();
-            // 如果抛出异常，证明测试失败,没有通过，没通过的测试计数在Failures中
-            Assert.fail();
         }
     }
+    
+    
+    
 }

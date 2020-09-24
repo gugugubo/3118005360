@@ -47,19 +47,17 @@ public class IoUtils {
     }
 
     /**
-     * 输出文件
+     * 保存结果方法
      * @param outputFilePath 输出文件的路径
      * @param result 字符串形式传入结果
      */
-    public static void convertString2File(String outputFilePath,String result){
-        //创建输出路径的文件
+    public static void saveFile(String outputFilePath, String result){
         File outputFile = new File(outputFilePath);
-        //写入
         try (FileWriter fr = new FileWriter(outputFile)) {
             char[] cs = result.toCharArray();
             fr.write(cs);
             fr.close();
-            System.out.println("The result has been written into " + outputFilePath);
+            System.out.println("计算完成啦！ 已经将结果保存到 " + outputFilePath);
         } catch (IOException e) {
             e.printStackTrace();
         }

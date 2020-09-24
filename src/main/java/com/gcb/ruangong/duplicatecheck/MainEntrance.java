@@ -2,6 +2,7 @@ package com.gcb.ruangong.duplicatecheck;
 
 import com.gcb.ruangong.utils.CalculationUtils;
 import com.gcb.ruangong.utils.IoUtils;
+import com.gcb.ruangong.utils.NumberUtils;
 
 import java.io.File;
 import java.util.List;
@@ -15,11 +16,11 @@ import java.util.List;
 public class MainEntrance {
     
     public static void main( String[] args ) {
-        process(args[0],args[1]);
+        start(args[0],args[1],args[2]);
         System.exit(0);
     }
  
-    public static void process(String originalArticle,String plagiarismArticle){
+    public static void start(String originalArticle, String plagiarismArticle , String desFilePath){
         File originalFile = new File(originalArticle);
         File plagiarismFile = new File(plagiarismArticle);
         if(! originalFile.exists() || ! plagiarismFile.exists()){
@@ -29,8 +30,11 @@ public class MainEntrance {
         List<String> originalString = IoUtils.initContentList(originalArticle);
         List<String> plagiarismString = IoUtils.initContentList(plagiarismArticle);
         double result = CalculationUtils.getSimResult(originalString , plagiarismString);
-        //控制台输出
-        System.out.println("计算得出的相似度为  : "  + result);
+        String percentFormat = NumberUtils.getPercentFormat(result, 2);
+        IoUtils.saveFile(desFilePath, "源文件的路径： " + originalArticle+"\n"
+                +"对比文件的路径： " + plagiarismArticle +"\n"
+                +"两篇文章的相似度为 ：" + percentFormat);
+        System.out.println("计算得出的相似度为  : "  + percentFormat);
     }
     
     
