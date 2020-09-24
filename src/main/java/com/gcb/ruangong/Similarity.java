@@ -52,20 +52,29 @@ public class Similarity {
     //求平方根
     private double sqrtMulti(Map<Character, int[]> paramMap) {
         double result = 0;
-        result = squares(paramMap);  //先求平方和
-        result = Math.sqrt(result);  //再开根号，就是求模
+        //先求平方和
+        result = squares(paramMap);
+        //再开根号，就是求模
+        result = Math.sqrt(result); 
         return result;
     }
 
-    // 求平方和，分母上，向量求模的平方
+    /**
+     * 求平方和，分母上，向量求模的平方
+     * @param paramMap
+     * @return
+     */
     private double squares(Map<Character, int[]> paramMap) {
         double result1 = 0;
         double result2 = 0;
         Set<Character> keySet = paramMap.keySet();
         for (Character character : keySet) {
-            int temp[] = paramMap.get(character);  //获取key对应的值--数组
-            result1 += (temp[0] * temp[0]);   //temp[0]存储的是第一个字符串对应的向量
-            result2 += (temp[1] * temp[1]);   //temp[1]存储的是第二个字符串对应的向量
+            //获取key对应的值--数组
+            int temp[] = paramMap.get(character);
+            //temp[0]存储的是第一个字符串对应的向量
+            result1 += (temp[0] * temp[0]);
+            //temp[1]存储的是第二个字符串对应的向量
+            result2 += (temp[1] * temp[1]);  
         }
         return result1 * result2;
     }
