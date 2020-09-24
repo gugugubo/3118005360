@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jihe:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,45 +24,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="test: 完善测试方法">
-      <change afterPath="$PROJECT_DIR$/document/assets/1600950042289.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600952314981.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600952345319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600952391062.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600952494037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600952512815.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600953254615.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600953372762.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600953513962.png" afterDir="false" />
+    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="docs: 完善文档">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jihe_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-lang3-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jieba-analysis-1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/document/软件工程设计思路.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/软件工程设计思路.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jihe.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/result/outputTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/outputTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/duplicatecheck/MainEntrance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/duplicatecheck/MainEntrance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/utils/IoUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/utils/IoUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jihe-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.jihe.JieBaAnalysisUtilsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.jihe.JiebaSegmenterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.ruangong.utils.CalculationUtilsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.ruangong.utils.IoUtilsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.ruangong.utils.NumberUtilsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.jihe.JieBaAnalysisUtilsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.jihe.JiebaSegmenterTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.ruangong.utils.CalculationUtilsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.ruangong.utils.IoUtilsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.ruangong.utils.NumberUtilsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/CalculationUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/CalculationUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/IoUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/IoUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/result/outputTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/outputTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForAdd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForAdd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForAdd10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForAdd10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForDel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForDel.txt" afterDir="false" />
@@ -105,14 +88,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="全局库" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="构件" />
     <property name="project.structure.proportion" value="0.16773017" />
     <property name="project.structure.side.proportion" value="0.31614137" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -121,24 +105,39 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gcb.ruangong.utils" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\古春波\Desktop\code\code\src\test\resources\result" />
+      <recent name="C:\Users\古春波\Desktop\code\code\src\test\resources\article" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gcb.jihe" />
       <recent name="com.gcb.ruangong" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\古春波\Desktop\code\code\src\main\resources\lib" />
+      <recent name="C:\Users\古春波\Desktop\code\code\src\main\resources" />
       <recent name="C:\Users\古春波\Desktop\code\code\src\test\resources" />
       <recent name="D:\我的项目\JavaLearing\java集合\code\src\test" />
       <recent name="D:\我的项目\JavaLearing\java集合\code\src\main\resources" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\古春波\Desktop\code\code\src\test\resources\result" />
-      <recent name="C:\Users\古春波\Desktop\code\code\src\test\resources\article" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JieBaAnalysisUtilsTest">
+  <component name="RunManager" selected="应用程序.MainEntrance">
+    <configuration name="MainEntrance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gcb.ruangong.duplicatecheck.MainEntrance" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcb.ruangong.duplicatecheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculationUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
@@ -169,38 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JieBaAnalysisUtilsTest.testForAdd10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gcb.jihe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gcb.jihe" />
-      <option name="MAIN_CLASS_NAME" value="com.gcb.jihe.JieBaAnalysisUtilsTest" />
-      <option name="METHOD_NAME" value="testForAdd10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JieBaAnalysisUtilsTest.testForDis15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gcb.jihe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gcb.jihe" />
-      <option name="MAIN_CLASS_NAME" value="com.gcb.jihe.JieBaAnalysisUtilsTest" />
-      <option name="METHOD_NAME" value="testForDis15" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JieBaAnalysisUtilsTest.testForOriginalArticleNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
@@ -217,13 +184,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jihe-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/jihe-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MainEntrance" />
         <item itemvalue="JUnit.JieBaAnalysisUtilsTest" />
+        <item itemvalue="JAR 应用程序.jihe-1.0-SNAPSHOT.jar" />
         <item itemvalue="JUnit.JieBaAnalysisUtilsTest.testForOriginalArticleNull" />
         <item itemvalue="JUnit.CalculationUtilsTest" />
-        <item itemvalue="JUnit.JieBaAnalysisUtilsTest.testForDis15" />
-        <item itemvalue="JUnit.JieBaAnalysisUtilsTest.testForAdd10" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +215,8 @@
       <workItem from="1600910747566" duration="7429000" />
       <workItem from="1600923703437" duration="12353000" />
       <workItem from="1600943757075" duration="7038000" />
-      <workItem from="1600952420190" duration="1572000" />
+      <workItem from="1600952420190" duration="5391000" />
+      <workItem from="1600959429667" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="集合相关只是">
       <created>1600843487162</created>
@@ -309,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600949822809</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="docs: 完善文档">
+      <created>1600954042689</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600954042689</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,41 +317,46 @@
     <MESSAGE value="docs: 添加注释文档" />
     <MESSAGE value="test: 测试&#10;&#10;增加对工具类的测试方法" />
     <MESSAGE value="test: 完善测试方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: 完善测试方法" />
+    <MESSAGE value="docs: 完善文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: 完善文档" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600957946694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600957946694" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600878890812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600878890812" />
-    <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600940144846">
+    <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600960189101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1600940144846" />
+    <state x="499" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1600960189101" />
     <state x="249" y="0" key="#项目结构" timestamp="1600861437106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1600861437106" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600950558007">
+    <state x="331" y="181" key="FileChooserDialogImpl" timestamp="1600960193486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600950558007" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600953475938">
+    <state x="331" y="181" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600960193486" />
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1600957947544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600953475938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600953475938">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1600957947544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600953475938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600953475937">
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1600957947544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600953475937" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600953475938">
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1600957947544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600953475938" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
     <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1600953138926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -389,14 +373,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1600950643484">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1600960196298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600950643484" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600925622877">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600960196298" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600954053683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600925622877" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600954053683" />
     <state x="286" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600932666277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
