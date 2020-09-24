@@ -15,6 +15,12 @@ import java.util.Map;
 public class JieBaAnalysisUtils {
 
 
+    /**
+     * 使用jieba分词进行分词
+     * @param article
+     * @param index
+     * @param wordMap
+     */
     public static void textSegment(List<String> article, int index, Map<String, int[]> wordMap){
         List<SegToken> segTokenList;
         for(String sentence : article) {
@@ -24,6 +30,12 @@ public class JieBaAnalysisUtils {
         }
     }
 
+    /**
+     * 求出词频
+     * @param segTokenList
+     * @param index
+     * @param wordMap
+     */
     private static void putWordIntoMap(List<SegToken> segTokenList, int index, Map<String, int[]> wordMap) {
         for(SegToken segToken : segTokenList) {
             String word = segToken.word;

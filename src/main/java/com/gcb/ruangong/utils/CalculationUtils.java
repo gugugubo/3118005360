@@ -9,15 +9,22 @@ import java.util.*;
  * @Version 1.0
  **/
 public class CalculationUtils {
-
-
+    
     static Map<String, int[]> wordMap = new HashMap<>();
 
+    public static double getSimResult(List<String> originalArticle,  List<String> plagiarismArticle){
+        JieBaAnalysisUtils.textSegment(originalArticle,0, wordMap);
+        JieBaAnalysisUtils.textSegment(plagiarismArticle,1, wordMap);
+        double sim = sim();
+        return sim;
+    }
+    
+    
     /**
      * 求余弦相似度
      * @return 相似度
      */
-    public double sim() {
+    private static double sim() {
         //分子分母相除
         double result;
         result = pointMulti(wordMap) / sqrtMulti(wordMap);
@@ -30,7 +37,7 @@ public class CalculationUtils {
      * @param paramMap 字数统计map
      * @return 求平方根计算结果
      */
-    private double sqrtMulti(Map<String, int[]> paramMap) {
+    private static double sqrtMulti(Map<String, int[]> paramMap) {
         double result;
         //先求平方和
         result = squares(paramMap);
@@ -44,7 +51,7 @@ public class CalculationUtils {
      * @param paramMap  字数统计map
      * @return 求平方和计算结果
      */
-    private double squares(Map<String, int[]> paramMap) {
+    private static double squares(Map<String, int[]> paramMap) {
         double result1 = 0;
         double result2 = 0;
         Set<String> keySet = paramMap.keySet();
@@ -64,7 +71,7 @@ public class CalculationUtils {
      * @param paramMap  字数统计map
      * @return 点乘计算结果 
      */
-    private double pointMulti(Map<String, int[]> paramMap) {
+    private static double pointMulti(Map<String, int[]> paramMap) {
         double result = 0;
         // 返回map中所有key值的列表，这里的set，也可以用list代替吧
         Set<String> keySet = paramMap.keySet();
@@ -77,7 +84,8 @@ public class CalculationUtils {
         return result;
     }
 
-    public static void main(String[] args) {
+
+    public  static void main(String[] args) {
         String s1 = "这只皮靴号码大了。那只号码合适";
         List<String> list1 = new ArrayList<>();
         list1.add(s1);
@@ -86,9 +94,10 @@ public class CalculationUtils {
         list2.add(s2);
         JieBaAnalysisUtils.textSegment(list1,0, wordMap);
         JieBaAnalysisUtils.textSegment(list2,1, wordMap);
-        CalculationUtils similarity = new CalculationUtils();
-        System.out.println(similarity.sim());
-    }
+        System.out.println(sim());
+    }   
+    
+  
 
 
 }
