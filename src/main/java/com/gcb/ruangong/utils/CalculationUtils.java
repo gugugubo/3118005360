@@ -15,8 +15,7 @@ public class CalculationUtils {
     public static double getSimResult(List<String> originalArticle,  List<String> plagiarismArticle){
         JieBaAnalysisUtils.textSegment(originalArticle,0, wordMap);
         JieBaAnalysisUtils.textSegment(plagiarismArticle,1, wordMap);
-        double sim = sim();
-        return sim;
+        return sim();
     }
     
     
@@ -83,8 +82,7 @@ public class CalculationUtils {
         }
         return result;
     }
-
-
+    
     public  static void main(String[] args) {
         String s1 = "这只皮靴号码大了。那只号码合适";
         List<String> list1 = new ArrayList<>();
@@ -95,9 +93,5 @@ public class CalculationUtils {
         JieBaAnalysisUtils.textSegment(list1,0, wordMap);
         JieBaAnalysisUtils.textSegment(list2,1, wordMap);
         System.out.println(sim());
-    }   
-    
-  
-
-
+    }
 }

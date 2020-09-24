@@ -1,20 +1,19 @@
 package com.gcb.ruangong.utils;
 
-import com.gcb.ruangong.MainEntrance;
+import com.gcb.ruangong.duplicatecheck.MainEntrance;
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * @Author 古春波
- * @Description 
+ * @Description 测试类
  * @Date 2020/9/24 15:04
  * @Version 1.0
  **/
 public class JieBaAnalysisUtilsTest extends TestCase {
-    
-    
-    
+
+
     /**
      * 测试20%文本错别字情况：orig_0.8_rep.txt
      */

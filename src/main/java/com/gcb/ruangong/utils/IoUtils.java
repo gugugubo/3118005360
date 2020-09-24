@@ -54,10 +54,6 @@ public class IoUtils {
     public static void convertString2File(String outputFilePath,String result){
         //创建输出路径的文件
         File outputFile = new File(outputFilePath);
-/*        if(! outputFile.exists()){
-            System.out.println("输出文件路径无效，答案无法输出，请检查参数 !");
-            return;
-        }*/
         //写入
         try (FileWriter fr = new FileWriter(outputFile)) {
             char[] cs = result.toCharArray();
