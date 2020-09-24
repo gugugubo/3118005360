@@ -1,3 +1,3 @@
-婧愭枃浠剁殑璺緞锛� src/test/resources/article/orig_0.8_dis_1.txt
-瀵规瘮鏂囦欢鐨勮矾寰勶細 src/test/resources/article/orig_0.8_dis_10.txt
-涓ょ瘒鏂囩珷鐨勭浉浼煎害涓� 锛�99.90%
+源文件的路径： src/test/resources/article/orig_0.8_dis_1.txt
+对比文件的路径： src/test/resources/article/orig_0.8_dis_10.txt
+两篇文章的相似度为 ：100.00%

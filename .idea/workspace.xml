@@ -19,63 +19,50 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="test: 测试&#10;&#10;增加对工具类的测试方法">
-      <change afterPath="$PROJECT_DIR$/document/assets/1600947570770.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600948500386.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/assets/1600948562399.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/JieBaAnalysisUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" afterDir="false" />
+    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="test: 完善测试方法">
+      <change afterPath="$PROJECT_DIR$/document/assets/1600950042289.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600952314981.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600952345319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600952391062.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600952494037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600952512815.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600953254615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600953372762.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/assets/1600953513962.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/document/软件工程设计思路.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/软件工程设计思路.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/duplicatecheck/MainEntrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcb/ruangong/duplicatecheck/MainEntrance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/JiebaSegmenterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/JiebaSegmenterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/jihe/MainApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/CalculationUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/CalculationUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/IoUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/IoUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/JieBaAnalysisUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/NumberUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gcb/ruangong/utils/NumberUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/article/outputTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/outputTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testAWrongArgumentResult" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testAddResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testDelResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testDis10Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testDis15Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testDis1Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testDis3Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testDis7Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testEmptyResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testMixResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testRepResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testSameResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testSubResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/code.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/duplicatecheck/MainEntrance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/duplicatecheck/MainEntrance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/utils/IoUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gcb/ruangong/utils/IoUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/article/outputTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jihe-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.jihe.JieBaAnalysisUtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.jihe.JiebaSegmenterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.ruangong.utils.CalculationUtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.ruangong.utils.IoUtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gcb.ruangong.utils.NumberUtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.jihe.JieBaAnalysisUtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.jihe.JiebaSegmenterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.ruangong.utils.CalculationUtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.ruangong.utils.IoUtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gcb.ruangong.utils.NumberUtilsTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/JiebaSegmenterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/jihe/MainApplicationTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/CalculationUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/CalculationUtilsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/IoUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/IoUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/JieBaAnalysisUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/NumberUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gcb/ruangong/utils/NumberUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testAWrongArgumentResult" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testAddResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testDelResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testDis10Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testDis15Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testDis1Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testDis3Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testDis7Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testEmptyResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testMixResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testRepResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testSameResult.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testSubResult.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForAdd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForAdd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForAdd10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForAdd10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForDel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForDel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForDis1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForDis1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForDis15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForDis15.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +115,7 @@
     <property name="project.structure.last.edited" value="全局库" />
     <property name="project.structure.proportion" value="0.16773017" />
     <property name="project.structure.side.proportion" value="0.31614137" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -256,7 +243,8 @@
       <workItem from="1600878804623" duration="412000" />
       <workItem from="1600910747566" duration="7429000" />
       <workItem from="1600923703437" duration="12353000" />
-      <workItem from="1600943757075" duration="5769000" />
+      <workItem from="1600943757075" duration="7038000" />
+      <workItem from="1600952420190" duration="1572000" />
     </task>
     <task id="LOCAL-00001" summary="集合相关只是">
       <created>1600843487162</created>
@@ -314,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600944470832</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test: 完善测试方法">
+      <created>1600949822809</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600949822809</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +337,8 @@
     <MESSAGE value="feat: 完成主要功能&#10;&#10;添加文件读写工具类" />
     <MESSAGE value="docs: 添加注释文档" />
     <MESSAGE value="test: 测试&#10;&#10;增加对工具类的测试方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: 测试&#10;&#10;增加对工具类的测试方法" />
+    <MESSAGE value="test: 完善测试方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: 完善测试方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600878890812">
@@ -357,46 +353,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1600861437106" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600914536115">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600950558007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600914536115" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1600949475380">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600950558007" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600953475938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600949475380" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1600949475380">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600953475938" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600953475938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600949475380" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1600949475380">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600953475938" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600953475937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600949475380" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1600949475380">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600953475937" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600953475938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600949475380" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600949475381">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600953475938" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1600953138926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600949475381" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1600949475381">
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600953138926" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1600953138925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600949475381" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1600949475381">
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1600953138925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600949475381" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1600949475381">
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1600953138925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600949475381" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1600949180242">
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1600950643484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600949180242" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600950643484" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600925622877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
