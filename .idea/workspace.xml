@@ -24,23 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="docs: 完善文档">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jihe_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/commons-lang3-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/jieba-analysis-1.0.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="14f89651-3004-4cf4-ade9-1ba46c1d2a3f" name="默认的" comment="build: 构建项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/软件工程设计思路.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/软件工程设计思路.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jihe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/result/outputTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/outputTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForAdd10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDel.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/result/testForDis15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/result/outputTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/outputTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForAdd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForAdd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForAdd10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForAdd10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/result/testForDel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/result/testForDel.txt" afterDir="false" />
@@ -124,7 +114,20 @@
       <recent name="D:\我的项目\JavaLearing\java集合\code\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.MainEntrance">
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="true" />
+      <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp tasks" flag="true" />
+      <visibility group="Maven goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="JUnit.JieBaAnalysisUtilsTest">
     <configuration name="MainEntrance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gcb.ruangong.duplicatecheck.MainEntrance" />
       <module name="code" />
@@ -154,7 +157,7 @@
       </method>
     </configuration>
     <configuration name="JieBaAnalysisUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gcb.jihe.*" />
@@ -163,7 +166,9 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gcb.jihe" />
       <option name="MAIN_CLASS_NAME" value="com.gcb.jihe.JieBaAnalysisUtilsTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,8 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.MainEntrance" />
         <item itemvalue="JUnit.JieBaAnalysisUtilsTest" />
+        <item itemvalue="应用程序.MainEntrance" />
         <item itemvalue="JAR 应用程序.jihe-1.0-SNAPSHOT.jar" />
         <item itemvalue="JUnit.JieBaAnalysisUtilsTest.testForOriginalArticleNull" />
         <item itemvalue="JUnit.CalculationUtilsTest" />
@@ -216,7 +221,9 @@
       <workItem from="1600923703437" duration="12353000" />
       <workItem from="1600943757075" duration="7038000" />
       <workItem from="1600952420190" duration="5391000" />
-      <workItem from="1600959429667" duration="766000" />
+      <workItem from="1600959429667" duration="1007000" />
+      <workItem from="1600961064331" duration="1196000" />
+      <workItem from="1601010813908" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="集合相关只是">
       <created>1600843487162</created>
@@ -288,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600954042689</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="build: 构建项目">
+      <created>1600960360472</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600960360472</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,9 +332,18 @@
     <MESSAGE value="test: 测试&#10;&#10;增加对工具类的测试方法" />
     <MESSAGE value="test: 完善测试方法" />
     <MESSAGE value="docs: 完善文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: 完善文档" />
+    <MESSAGE value="build: 构建项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: 构建项目" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="370" y="28" key="#JieBaAnalysisUtilsTest" timestamp="1600964066590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="28" key="#JieBaAnalysisUtilsTest/0.0.1536.824@0.0.1536.824" timestamp="1600964066590" />
+    <state x="433" y="28" key="#MainEntrance" timestamp="1600963570094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="28" key="#MainEntrance/0.0.1536.824@0.0.1536.824" timestamp="1600963570094" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600957946694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -341,46 +364,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="331" y="181" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600960193486" />
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1600957947544">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600964153733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
-    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1600957947544">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600964153733" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600964153733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
-    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1600957947544">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600964153733" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600964153733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
-    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1600957947544">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600964153733" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600964153733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600957947544" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1600953138926">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600964153733" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600964153725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600953138926" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1600953138925">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600964153725" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1600964153725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1600953138925">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600964153725" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1600964153725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1600953138925">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600964153725" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1600964153725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600953138925" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600964153725" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1600960196298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600960196298" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600954053683">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600960371313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600954053683" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600960371313" />
     <state x="286" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600932666277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,3 +1,3 @@
-Ô´ÎÄ¼şµÄÂ·¾¶£º src/test/resources/article/orig_0.8_dis_1.txt
-¶Ô±ÈÎÄ¼şµÄÂ·¾¶£º src/test/resources/article/orig_0.8_dis_10.txt
-Á½ÆªÎÄÕÂµÄÏàËÆ¶ÈÎª £º100.00%
+æºæ–‡ä»¶çš„è·¯å¾„ï¼š src/test/resources/article/orig_0.8_dis_1.txt
+å¯¹æ¯”æ–‡ä»¶çš„è·¯å¾„ï¼š src/test/resources/article/orig_0.8_dis_10.txt
+ä¸¤ç¯‡æ–‡ç« çš„ç›¸ä¼¼åº¦ä¸º ï¼š99.90%
